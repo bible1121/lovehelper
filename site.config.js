@@ -1,11 +1,12 @@
-/* ==========================================================
-   site.config.js : 내 Firebase 연결 + 관리자 이메일
-   ----------------------------------------------------------
-   직접 고치지 마세요. 사이트 주소 뒤에 #setup 을 붙여 열면
-   설치 화면이 이 파일을 만들어 줘요. (내려받아서 이 파일을 덮어쓰기)
-   값이 비어 있으면 사이트는 원본 그대로 동작하고, #admin 은 설치 화면을 보여줘요.
-   ========================================================== */
+/* site.config.js : 내 Firebase 연결 + 관리자 이메일 (공개되어도 되는 값이에요) */
 window.SITE_CONFIG = {
-  firebase: {},
-  admin: { email: "" }
+  firebase: {
+    apiKey: "AIzaSyBKXCxy9UApQSAZkWZxp2HV9ANH16ZaEAU",
+    authDomain: "lovehelper-a4f82.firebaseapp.com",
+    projectId: "lovehelper-a4f82",
+    storageBucket: "lovehelper-a4f82.firebasestorage.app",
+    messagingSenderId: "423123040510",
+    appId: "1:423123040510:web:e00a0e3c4ec7a7e4c20daf"
+  },
+  admin: { email: "bible11211125@gmail.com" }
 };
